@@ -12,6 +12,7 @@ interface IPizzaBuilder {
   addPineapple(): this;
 }
 
+// PizzaBuilder is a builder
 export class PizzaBuilder implements IPizzaBuilder {
   private _pizza: Pizza = new Pizza();
 

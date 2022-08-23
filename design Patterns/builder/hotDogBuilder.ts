@@ -10,6 +10,7 @@ interface IHotDogBuilder {
   addLettuce(): this;
 }
 
+// HotDogBuilder is a builder
 export class HotDogBuilder implements IHotDogBuilder {
   private _hotDog: HotDog = new HotDog()
 

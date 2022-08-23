@@ -1,3 +1,9 @@
+// what is a prototype design pattern?
+// it is a creational design pattern that allows cloning objects without coupling to their specific classes
+
+// when to use prototype design pattern?
+// when you want to create a new object based on an existing object and you want to change some of the properties of the existing object
+
 
 class YoungLuke {
 

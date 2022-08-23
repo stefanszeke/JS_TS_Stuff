@@ -1,4 +1,8 @@
 
+// WHAT IS ARRAY DESTRUCTURING?
+// Array destructuring is a way to extract data from an array and assign it to variables in one go.
+
+
 // array destructuring
 const fruits = ['apple', 'banana', 'orange'];
 const [first, second, third] = fruits;

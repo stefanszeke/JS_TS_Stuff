@@ -7,7 +7,7 @@ const testPizza = new PizzaBuilder()
   .addTomatoes()
   .addPineapple()
 
-
+// Chef is a director
 export class Chef {
 
   makePepperoniPizza(): Pizza {

@@ -1,3 +1,10 @@
+// what is and adapter pattern?
+// Adapter pattern is a structural design pattern that allows objects with incompatible interfaces to collaborate.
+
+// when to use adapter pattern?
+// when you want to use an existing class, and its interface does not match the one you need.
+
+
 interface IMetrics {
   volumeInCm(a: number): string;
 }

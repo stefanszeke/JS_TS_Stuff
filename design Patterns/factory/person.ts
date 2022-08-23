@@ -31,6 +31,7 @@ export class Admin extends Person{
   constructor(name: string) { super(name) }
 }
 
+// PersonFactory1 is a factory
 export class PersonFactory1 {
   static create(name: string, type: 'guest' | 'user' | 'admin'): Person {
     switch (type) {

@@ -1,3 +1,17 @@
+export {}
+
+// what is yield?
+// yield is a keyword that pauses the generator function
+// and returns the value to the caller
+// the caller can then resume the generator function
+// by calling next() on the generator object
+
+// what is a generator?
+// a generator is a function that can be paused and resumed
+// a generator is a special type of function that works with the yield keyword
+// a generator is a function that returns a generator object
+// a generator is a function that returns an iterator
+
 function* myGenerator(nums: number[]) {
 
   for(let num of nums) {
