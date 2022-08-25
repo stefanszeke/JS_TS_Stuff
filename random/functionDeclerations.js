@@ -1,4 +1,7 @@
 
+// what is a function?
+// a function is a block of code that can be executed
+// a function is a reusable block of code that can be called to perform a task
 
 // difference between run-time vs parse-time function declaration 
 // is that the function expression is not hoisted
