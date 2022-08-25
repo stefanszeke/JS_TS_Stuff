@@ -7,3 +7,10 @@ console.log = function() {
 
 console.log('Hello, world!')
 
+function appLog() {
+  var args = Array.prototype.slice.call(arguments);
+  args.unshift('[App log]:');
+  console.log.apply(console, args);
+}
+
+appLog("Some error message"); 
