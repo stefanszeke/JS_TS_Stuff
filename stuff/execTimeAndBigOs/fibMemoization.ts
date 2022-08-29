@@ -17,7 +17,7 @@ const memoizedFibonacci = (n: number): number => {
 
 const memoizedFibonacciHelper = (n: number, memo: number[]): number => {
   if (n < 2) {
-    return 1;
+    return n;
   }
   if (memo[n]) {
     return memo[n];
