@@ -43,6 +43,10 @@ async function addLukes() {
   
   console.log(youngLuke)
   console.log(oldLuke)
+
+
+  console.log('oldLuke.hasOwnProperty [age]' ,oldLuke.hasOwnProperty('age'))
+  console.log('oldLuke.hasOwnProperty [hairColor]' ,oldLuke.hasOwnProperty('hairColor'))
 }
 
 addLukes();
