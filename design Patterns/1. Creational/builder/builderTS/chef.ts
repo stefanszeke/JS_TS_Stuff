@@ -6,11 +6,13 @@ const testPizza = new PizzaBuilder()
   .addOlives()
   .addTomatoes()
   .addPineapple()
+  .getPizza()
+
 
 // Chef is a director
 export class Chef {
 
-  makePepperoniPizza(): Pizza {
+  static makePepperoniPizza(): Pizza {
     const pizza = new PizzaBuilder()
       .addPepperoni()
       .addPepperoni()
@@ -19,7 +21,7 @@ export class Chef {
     return pizza;
   }
 
-  makeHawaiianPizza(): Pizza {
+  static makeHawaiianPizza(): Pizza {
     const pizza = new PizzaBuilder()
       .addCheese()
       .addPepperoni()
@@ -29,7 +31,7 @@ export class Chef {
     return pizza;
   }
 
-  makeAmericanHotDog(): HotDog {
+  static makeAmericanHotDog(): HotDog {
     const hotDog = new HotDogBuilder()
       .addKetchup()
       .addMustard()
@@ -37,7 +39,7 @@ export class Chef {
     return hotDog;
   }
 
-  makeMexicanHotDog(): HotDog {
+  static makeMexicanHotDog(): HotDog {
     const hotDog = new HotDogBuilder()
       .addKetchup()
       .addMustard()

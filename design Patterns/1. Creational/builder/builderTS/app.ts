@@ -17,10 +17,10 @@
 
 import { Chef } from './chef';
 
-const hawaiianPizza = new Chef().makeHawaiianPizza();
-const pepperoniPizza = new Chef().makePepperoniPizza();
+const hawaiianPizza = Chef.makeHawaiianPizza();
+const pepperoniPizza = Chef.makePepperoniPizza();
 
-const americanHotDog = new Chef().makeAmericanHotDog();
+const americanHotDog = Chef.makeAmericanHotDog();
 
 
 console.log(hawaiianPizza);
